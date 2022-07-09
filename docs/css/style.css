@@ -1,0 +1,84 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+header{
+background-color: blue;
+color: azure;
+}
+main{
+    background-color: aqua;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*box module en parrafo*/
+.parrafo{
+    
+    text-align: justify;
+    /*acceso ditecto arriba derecha abajo izquierda*/
+padding: 20px;
+
+/*padding: 20px;
+padding-right: 50px;
+padding-bottom: 4px;
+padding-left: 5px;*/
+
+  /*acceso ditecto tamaño tipo de  borde color de borde*/
+ /* border: 5px solid rgb(101, 206, 101);
+*/
+/*arriba , derecha abajo e izquierda*/
+border-width:20px 5px  10px 30px ;
+
+  /*border-width: 20px ;*/
+  /*border-top-width: 5px;
+  border-right-width: 30px ;
+  border-bottom-width:20px ;
+  border-left-width: 0px;*/
+/*arriba , derecha abajo e izquierda*/
+border-style: dashed groove solid double ;
+ /* border-top-style: groove;
+  border-right-style: solid;
+  border-bottom-style: double;
+  border-left-style: dotted;*/
+  /*arriba , derecha abajo e izquierda*/
+  border-color: red yellow blue black;
+ /* border-top-color: rgb(34, 29, 29);
+  border-bottom-color: rgb(78, 180, 119);
+  border-right-color: rgb(160, 16, 16);
+  border-left-color: rgb(34, 29, 29);*/
+
+ /* margin-bottom: 30px;
+  margin-right: 50px;
+  margin-left: 15PX;*/
+ 
+   margin: 20px  40px 50px 100px;
+}
+div{
+    background-color: darksalmon;
+    text-align: justify;
+    border-width: 50px;
+    padding: 20px 15px 30px 40ppx;
+}
+img{
+    text-align: justify;
+    display: block;
+    padding: 20px;
+    margin: 15px;
+    border-style: double;
+}
+.parrafo2{
+    text-align: left;
+    border-width: 15px 15px 15px 15px;
+    padding: 30px;
+    margin: 15px 15px 15px 15px;
+    border-style: dashed ;
+}
+.parrafo3{
+    text-align: left;
+    border-width: 15px 15px 15px 15px;
+    padding: 30px;
+    margin: 15px 15px 15px 15px;
+    border-style:dotted ;
+}
